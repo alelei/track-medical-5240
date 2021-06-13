@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:track_medical/src/pages/home_page.dart';
+import 'package:track_medical/src/pages/main_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.indigo),
-      home: HomePage(titulo: 'Track Medical'),
+      title: 'Track Medical',
+      theme: ThemeData(primarySwatch: Colors.amber),
+      home: MainPage(titulo: 'Track Medical'),
     );
   }
 }
